@@ -18,3 +18,7 @@ docker run -t \
   qbittorrent-nox
 docker start qbittorrent-nox
 ```
+## Logging in  
+The web interface should be available on http://docker.host.ip.here:8080  
+and the username is **admin** and the password is **adminadmin**,  
+### Please change both username and password for the admin user  
