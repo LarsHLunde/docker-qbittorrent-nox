@@ -28,11 +28,11 @@ FILE=/install/firstrun
 if test -f "$FILE"; then
     rm -f /install/firstrun
     echo "Configuring QBittorrent NoX..."
-    timeout 1s sh -c 'echo y | /usr/bin/qbittorrent-nox'
+    timeout 3s sh -c 'echo y | /usr/bin/qbittorrent-nox'
     sed -i 's/^Session\\Port=.*/Session\\Port=55555/' ~/.config/qBittorrent/qBittorrent.conf
     writewatched
-    echo "Docker QBittorrent NoX has been installed"
-    echo "Please start the container again normally"
+    echo "Docker qBittorrent NoX has been installed"
+    echo "The qBittorrent instance should already be running"
     exit 0
 fi
 
