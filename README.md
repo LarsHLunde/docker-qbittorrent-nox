@@ -16,7 +16,6 @@ docker run -t \
   --name qbittorrent-nox \
   --restart unless-stopped \
   qbittorrent-nox
-docker start qbittorrent-nox
 ```
 ## Logging in  
 The web interface should be available on http://docker.host.ip.here:8080  
