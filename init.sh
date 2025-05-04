@@ -34,6 +34,7 @@ if test -f "$FILE"; then
     writewatched
     echo "Docker qBittorrent NoX has been installed"
     echo "The qBittorrent instance should already be running"
+    echo "REMEMBER TO CHANGE THE DEFAULT USERNAME AND PASSWORD"
     exit 0
 fi
 
