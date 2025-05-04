@@ -4,7 +4,7 @@ A docker instance of qBittorrent NoX
 ## How to install
 ```
 git clone https://github.com/LarsHLunde/docker-qbittorrent-nox.git
-cd qbittorrent-nox
+cd docker-qbittorrent-nox
 docker build -t qbittorrent-nox .
 docker run -t \
   -v /root/qBittorrent/Watch:/root/Watch \
